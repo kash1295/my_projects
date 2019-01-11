@@ -1,4 +1,4 @@
-
+        
 // Get the first character of every string 
 	function firstCharacter(name){
 		return name.split(" ").map((word) =>{
