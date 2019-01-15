@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modern Webpage</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+		
+</head>
+
+<body>
+
+
+<header>
+	
+
+	<div class="logo"> 
+			TECH SOLUTION
+		</div>
+		
+		<nav>
+			<ul>
+			<li><a href="#about-link">About</a></li>
+			<li><a href="#service-link">Services</a></li>
+			<li><a href="#Portfolio-link">Portfolio</a></li>
+			<li><a href="#contact-link">Contact</a></li>
+	
+		</ul>
+		</nav>
+		
+
+	
+			<i class="fa fa-bars menu" aria-hidden="true"></i>
+		
+
+</header>
+		
+
+<section>
+	
+	<div class="Hero-img"> 
+	<h1 class="tagline">
+	We are a design Agency
+	</h1>
+</div>
+
+
+</section>
+
+
+	<div class="about" id="about-link">
+		<div class="info info-one">
+			<h1 class="Para-title">About Us</h1>
+			<p class="ab">
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			</p>
+			<button class="ab-button">Know More</button>
+		</div>
+
+		<div class="info info-two">
+			<img src="web-dev.jpg" class="abt-img">
+		</div>
+	</div>
+		
+
+		
+	
+
+
+	<div class="ser" id="service-link">
+		<h1 class="service">Our Services</h1>
+		<div class="box bo-1">
+			<img src="web.png" height="75px" width="75px" class="box-img">
+			<h2 class="ser-ttl">Web Development</h2>
+			<p class="ser-des">We are a Web Development Company who believe in 
+			clean and user friendly web Applications</p>
+		</div>
+		<div class="box bo-2">
+			<img src="android-app.png" height="75px" width="75px" class="box-img">
+			<h2 class="ser-ttl">Android Development</h2>
+			<p class="ser-des">We are a Android Development Company who believe in 
+			clean and user friendly web Applications</p>
+		</div>
+		<div class="box bo-3">
+			<img src="marketing.png" height="75px" width="75px" class="box-img">
+			<h2 class="ser-ttl">Digital Marketing</h2>
+			<p class="ser-des">We are a Digital Marketing Company who believe in
+			clean and user friendly web Applications</p>
+		</div>
+	</div>
+
+
+	<div class="tabs-main" id="Portfolio-link">
+		<div class="tab-div" style="margin-bottom: 30px;">
+			<button class="button" onClick="showPanel(0)" id="button-one">Web Development</button>
+			<button class="button" onClick="showPanel(1)" id="button-two">Android Development</button>
+			<button class="button" onClick="showPanel(2)" id="button-three">Web Design</button>
+		</div>
+
+		<div class="tab-below" id="one">
+			<p class="tab-hd">Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			</p>
+			<img src="web-dev.jpg" height="400px" width="800px" class="tab-img">
+		</div>
+
+		<div class="tab-below " id="two">
+			<p class="tab-hd">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+			</p>
+			<img src="android.jpg" height="400px" width="800px" class="tab-img">
+		</div>
+
+		<div class="tab-below " id="three">
+			<p class="tab-hd">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+			</p>
+			<img src="web-dev.jpg" height="400px" width="800px" class="tab-img">
+		</div>
+	</div>
+		
+	
+	
+
+		<div class="nww" style="margin: 30px 0;">
+		<div class="new" style="width:50%;margin: 0 auto">
+			<h2 class="f-ttl">Get In Touch</h2>
+			<form>
+				
+				<input type="text" name="fullname" placeholder="Name" class="fo-in" id="tex" required="required" autofocus="autofocus"><br>
+				
+				<input type="email" name="email" placeholder="Email" class="fo-in" required="requiredre"><br>
+				
+				<input type="tel" name="telephone" placeholder="Contact Number" class="fo-in" required="required"><br>
+				
+				<textarea rows="4"
+				cols="50" class="fo-in" placeholder="Your Message">
+					
+				</textarea> <br>
+				<input type="button" name="submit" value="Submit" class="sub-but" onClick="showMessage()">
+			</form>
+
+	 	</div>
+
+
+	<div class="con message">
+		<h2 class="mes"> </h2>
+	</div>
+         
+	</div>
+	
+	<div class="coms-main">
+		<div class="coms addr">
+			<div class="coms-one">
+			<i class="far fa-envelope"></i>
+			<p>kashmirapendhari1520@gmail.com</p>
+		</div>
+		<div class="coms-one">
+			<i class="fas fa-map-marker-alt"></i>
+			<p>Shop NO RB.1, Hawares centurion Mall 1st Floor, Sector No 19, Nerul East, Sector 19A, Seawoods, Mumbai, Maharashtra 400706</p>
+		</div>
+		</div>
+		
+
+		<div class="coms-new coms">
+			<iframe class="ma" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.8906635886938!2d73.02008431490033!3d19.024538987117552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3beac6fc01d%3A0x8aaaa0971cbc773b!2sMcDonald&#39;s!5e0!3m2!1sen!2sin!4v1546691947795"  height="398" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+	</div>
+
+
+	</div>
+<footer>
+	<div class="foo">
+		<ul>
+		<li><a href="#about-link"> About Us</a></li>
+		<li> <a href="#service-link">Services</a></li>
+		<li><a href="#Portfolio-link">Portfolio</a></li> 
+		<li> <a href="#contact-link">Contact Us</a></li>
+
+		</ul>
+	</div>
+	</footer>
+
+	<script
+ 		 src="https://code.jquery.com/jquery-3.3.1.js">
+  			
+  	</script>
+	
+
+	<script type="text/javascript">
+	
+	$(document).ready(function(){
+
+		$('.menu').click(function(){
+
+			$('nav').toggleClass('active');
+		})
+	})
+
+
+	let buttons=document.querySelectorAll('.button');
+	let panels=document.querySelectorAll('.tab-below');
+
+
+	function showPanel(panelindex){
+
+		buttons.forEach(function(node){
+
+			node.style.background='#d7d7d5';
+			node.style.color='#555555';
+
+		});
+
+	buttons[panelindex].style.background='#3498db';
+	buttons[panelindex].style.color='white';
+
+
+
+	panels.forEach(function(node){
+		node.style.display='none';
+
+	});
+
+	panels[panelindex].style.display='block';
+
+	}
+
+	showPanel(0);
+
+	
+	
+	function showMessage(){
+
+		var name=document.querySelector('#tex');
+	
+		document.querySelector('.mes').innerHTML='Welcome ' + name.value + 'We are grateful ';
+
+		document.querySelector('.new').style.display='none';
+		document.querySelector('.message').style.display='block';
+		
+	}
+	
+
+	
+
+
+	</script>
+
+</body>
+</html>

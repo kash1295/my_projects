@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+	
+	function getInitials(name){
+		
+		
+			return name.split(' ').map((word) => {
+
+				return word[0];
+
+			})
+
+			.join('');
+		
+
+	}	
+		
+
+	console.log(getInitials('kashmira sikander pendhari'));
+
+
+
+	var myRe =/d(b+)(d)/i;
+	var myArray=myRe.exec('cdbBdbsbz');
+	console.log(myArray);
+
+	var array=[0,1,2,3];
+	array.copyWithin(1,2,3);
+	console.log(array);
+
+	array.fill(2,0);
+	console.log(array);
+
+
+	var str1=['kash','mira'];
+	var str2='mira';
+
+
+	str1.forEach(function(node){
+
+		console.log(node);
+	});
+
+	var ob={
+		a:1,
+		b:2,
+		getA(){
+			console.log(this.a);
+			return this;
+		},
+
+		getB(){
+			console.log(this.b);
+		},
+
+		getC(){
+
+			console.log(this.a);
+		}
+	
+	}
+
+	ob.getA().getC();
+
+</script>
+
+
+</body>
+</html>
