@@ -247,7 +247,8 @@ text-align: center;
   }
 
 footer{
-	margin:0px 128px;
+	
+    margin: 128px 128px 0 128px;
 }
 .footer-wrapper{
 	margin:80px 0;
@@ -276,10 +277,13 @@ h1{
 	margin: 20px 0;
 
 }
+footer{
+	margin: 20px;
+}
 
 .bg{
 	height: 100%;
-	background-image: none;
+
 
 }
 .nav-list{
@@ -317,7 +321,7 @@ h1{
 
     .col-sm-12{
     	width: 100%;
-    	margin: 20px 0;
+    	margin: 40px 0;
     }
 .services{
 	max-width: 100%
@@ -325,6 +329,10 @@ h1{
 
 .service-title{
 	width: 100%;
+}
+
+.pricing-bg{
+	margin-top: 90px;
 }
 
 
@@ -335,9 +343,7 @@ h1{
 
 
 
-.about-bg {
-    background:none;
-}
+
 
 .about-title{
 	font-size:35px;
