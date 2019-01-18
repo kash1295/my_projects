@@ -1,4 +1,4 @@
-     
+
 
 	
 		*{
@@ -30,9 +30,6 @@
 			font-size: 25px;
 		}
 		
-img{
-    max-width: 100%;
-}
 
 		nav{
 			float: right;
@@ -70,7 +67,7 @@ img{
 				background-repeat: no-repeat;
 				background-position: center;
 				height: 100vh;
-				
+				width: 100vw;
 				position: relative;	
 					  
 			}
@@ -99,7 +96,7 @@ img{
 
 		
 		.about{
-			margin: 30px;
+			
 			padding-top: 100px;
 			padding-bottom: 100px;
 		}
@@ -112,12 +109,7 @@ img{
 			padding-right: 30px;
 			box-sizing: border-box;
 		}
-        
-.abt-img{
-        background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-}
+
 
 		.about:after{
 			content: '';
@@ -396,16 +388,15 @@ img{
 
 		.foo{
 			
-			    width: 100%;
-    box-sizing: border-box;
-    background: black;
-    text-align: center;
-    padding: 100px 0;
-            display: inline-block;
-}
-		
+			width: 100%;
+			box-sizing: border-box;
+			background: black;
+		}
 
-	
+		.foo ul{
+			float: right;
+
+		}
 		.foo ul li{
 
 			display: inline-block;
@@ -614,7 +605,7 @@ img{
 		}
 		
 
-		@media  (min-width: 425px){
+		@media (max-width: 425px){
 
 		ul{
 
