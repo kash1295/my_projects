@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu+Condensed');
+
+body{
+	padding:0;
+	margin:0;
+	font-family: Lato;
+}
+
+.navbar-brand{
+	font-family: Pacificio;
+	font-size: 35px;
+	color:red;
+}
+
+.nav-link{
+	font-size: 16px;
+	margin: 15px;
+	color: black;
+	font-family: Roboto+Condensed;
+}
+
+
+
+
+
+
+
+
+
+.site-content{
+	background-image: url();
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.site-content .site-desc{
+	color: white;
+	font-family: righte;
+}
+
+.site-title{
+	margin-top: 30%;
+	margin-bottom: 6%;
+	font-size: 50px;
+}
+
+.site-desc{
+	font-size: 14px;
+	padding-left: 15%;
+}
+
+.site-btn1{
+	margin-left: 20%;
+	background-color: black;
+	color: white;
+}
