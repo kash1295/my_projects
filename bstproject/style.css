@@ -19,8 +19,24 @@ body{
 	font-family: Roboto+Condensed;
 }
 
+.nav-link:hover{
+	color: #00E8E8;
+}
 
+.active .nav-link{
 
+}
+
+.menu-right-btn{
+	padding:13px 46px;
+	margin-right: 4%;
+	background-color: transparent;
+	transition: all 300ms ease-in;
+}
+
+.menu-right-btn:hover{
+
+}
 
 
 
@@ -28,14 +44,14 @@ body{
 
 
 .site-content{
-	background-image: url();
+	background-image: url('banner.jpeg');
 	background-attachment: fixed;
 	background-size: cover;
 }
 
-.site-content .site-desc{
+.site-content, .site-desc{
 	color: white;
-	font-family: righte;
+	font-family: 'Righteous';
 }
 
 .site-title{
@@ -55,8 +71,14 @@ body{
 	color: white;
 }
 
+.site-btn2{
+	background-color: white;
+	}
 
-
+.site-btn1, .site-btn2{
+	margin-top: 5%;
+	margin-bottom: 40%;
+}
 /* Section1 */
 .section-1 .heading-1{
 	margin-top: 8%;
@@ -84,7 +106,7 @@ body{
 /* Section-2*/
 
 .section-2 .container-fluid{
-	background-image: url();
+	background-image: url('banner.jpeg');
 	background-size: cover;
 	background-attachment: fixed;
 }
