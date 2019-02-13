@@ -370,7 +370,7 @@ a:focus, a:hover {
 }
 
 .colors-switcher .colors-list a.green {
-  background-color: #5BB12F;
+  background-color: #28ABE3;
 }
 
 .colors-switcher .colors-list a.light-green {
@@ -2122,3 +2122,7 @@ img.logo-default {
     text-align: center;
     display: inline-flex;
   }
+
+
+
+  
