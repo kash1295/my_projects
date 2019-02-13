@@ -39,7 +39,9 @@ body{
 		background-color: #00E8E8; 
 }
 
-
+.bg-light {
+    background-color: #ffffff!important;
+}
 .site-content{
 	background-image: url('banner.jpeg');
 	background-attachment: fixed;
@@ -182,13 +184,27 @@ font-size: 20px;
 
 @media (max-width: 768px){
 	.section-1 .card{
-		width: 14rem;
+		width: 100%;
 	}
 	.section-4 .col-md-7 img{
 		max-width: 100%;
 	}
 		 input.btn.site-btn2.px-4.py-3.mr-4.btn-light {
     display: none !important;
+}
+}
+
+@media (max-width: 480px){
+	.site-title {
+    margin-left: 58px;
+}
+.site-btn1 {
+    margin-left: 15%;
+   
+}
+input#email {
+    width: 80%;
+    margin-bottom: 20px;
 }
 }
 
